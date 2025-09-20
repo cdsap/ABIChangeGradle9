@@ -29,7 +29,7 @@ jobs:
                   java-version: 21
 
             - name: Check build-logic
-              run: bash change. sh $GITHUB_HEAD_REF
+              run: bash change.sh $GITHUB_HEAD_REF
               env:
                   DEVELOCITY_ACCESS_KEY: ${{ secrets.DV_ACCESS_KEY }}
 
